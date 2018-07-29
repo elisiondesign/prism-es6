@@ -1,0 +1,24 @@
+{
+  "name": "prism-es6",
+  "version": "1.0.0",
+  "description": "Enable prismjs library to be imported using ES6 syntax",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elisiondesign/prism-es6.git"
+  },
+  "keywords": [
+    "prismjs",
+    "es6",
+    "wrapper"
+  ],
+  "author": "Jan Bílek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elisiondesign/prism-es6/issues"
+  },
+  "homepage": "https://github.com/elisiondesign/prism-es6#readme"
+}
