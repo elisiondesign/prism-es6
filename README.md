@@ -8,5 +8,8 @@ npm install --save prism-es6
 ```
 
 ```
-import Prism from 'Prism';
+import Prism from 'prism-es6';
 ```
+Now you can run use Prism API without the highlighter being executed on import.
+
+For API options see : [Prism API](https://prismjs.com/extending.html)
