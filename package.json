@@ -1,6 +1,6 @@
 {
   "name": "prism-es6",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Enable prismjs library to be imported using ES6 syntax",
   "main": "prism.js",
   "scripts": {
