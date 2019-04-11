@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/elisiondesign/prism-es6/issues"
   },
-  "homepage": "https://github.com/elisiondesign/prism-es6#readme"
+  "homepage": "https://github.com/elisiondesign/prism-es6#readme",
+  "devDependencies": {
+    "prismjs": "^1.16.0"
+  }
 }
