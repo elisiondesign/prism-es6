@@ -4,7 +4,10 @@
   "description": "Enable prismjs library to be imported using ES6 syntax",
   "main": "prism.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run clean && npm run cp:themes && npm run cp:components",
+    "clean": "npx rimraf ./themes && npx rimraf ./components",
+    "cp:themes": "cp -r ./node_modules/prismjs/themes ./themes",
+    "cp:components": "cp -r ./node_modules/prismjs/components ./components"
   },
   "repository": {
     "type": "git",
