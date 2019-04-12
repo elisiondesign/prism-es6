@@ -4,7 +4,10 @@
   "description": "Enable prismjs library to be imported using ES6 syntax",
   "main": "prism.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run clean && npm run cp:themes && npm run cp:components",
+    "clean": "npx rimraf ./themes && npx rimraf ./components",
+    "cp:themes": "cp -r ./node_modules/prismjs/themes ./themes",
+    "cp:components": "cp -r ./node_modules/prismjs/components ./components"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/elisiondesign/prism-es6/issues"
   },
-  "homepage": "https://github.com/elisiondesign/prism-es6#readme"
+  "homepage": "https://github.com/elisiondesign/prism-es6#readme",
+  "devDependencies": {
+    "prismjs": "^1.16.0"
+  }
 }
